@@ -1,4 +1,4 @@
-function PerfectNumber(number) {
+function perfectNumber(number) {
     let sum = 0;
     let halved = number / 2; // halved the number to increase performance
     let result = false;
