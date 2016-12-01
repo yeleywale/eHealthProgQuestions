@@ -1,6 +1,6 @@
 function PerfectNumber(number) {
     let sum = 0;
-    let halved = number / 2;
+    let halved = number / 2; // halved the number to increase performance
     let result = false;
 
     for (i = 1; i <= halved; i++) {
